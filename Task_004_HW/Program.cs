@@ -18,11 +18,11 @@ if (numberTwo > max)
 {
     Console.WriteLine($"Самое большое число - {numberTwo}");
 }
-else if (numberThree > max)
+if (numberThree > max)
 {
     Console.WriteLine($"Самое большое число - {numberThree}");
 }
-else
+if (numberOne > max)
 {
     Console.WriteLine($"Самое большое число - {numberOne}");
 }
